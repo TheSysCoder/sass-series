@@ -1,0 +1,42 @@
+// variables in scss
+// color variables
+$primary-color: #326dee;
+$secondary-color: #1ac888;
+$error-color: #d32752;
+$info: #f6c31c;
+
+// color palette
+$colors: (
+  "primary": $primary-color,
+  "secondary": $error-color,
+  "info": $info,
+  "blue": blue,
+  "yellow": yellow,
+  "green": green,
+  "red": red,
+  "orange": orange,
+  "purple": purple,
+  "gray": gray,
+  "black": black,
+  "white": white,
+);
+
+@debug map-get($map: $colors, $key: "info");
+
+// spacing variables
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.75;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
