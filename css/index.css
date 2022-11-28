@@ -3192,3 +3192,34 @@ a {
 .font-xxl {
   font-size: 3rem;
 }
+
+@media (min-width: 0) {
+  .responsive {
+    color: #326dee;
+  }
+}
+@media (min-width: 480px) {
+  .responsive {
+    color: #1ac888;
+  }
+}
+@media (min-width: 720px) {
+  .responsive {
+    color: #f6c31c;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive {
+    color: #d32752;
+  }
+}
+@media (min-width: 960px) {
+  .responsive {
+    color: blue;
+  }
+}
+@media (min-width: 1400px) {
+  .responsive {
+    color: orange;
+  }
+}
