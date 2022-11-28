@@ -5,23 +5,23 @@
   .bg-#{$key} {
     background-color: $val;
   }
-  //   light colors
+
+  // light colors
   @for $i from 1 through 9 {
     .text-#{$key}-light-#{$i} {
-      color: mix(#fff, $val, $i * 10);
+      color: mix(white, $val, $i * 10%);
     }
     .bg-#{$key}-light-#{$i} {
-      background-color: mix(#fff, $val, $i * 10);
+      background-color: mix(white, $val, $i * 10%);
     }
   }
-
-  //   dark colors
+  // dark colors
   @for $i from 1 through 9 {
     .text-#{$key}-dark-#{$i} {
-      color: mix(#000, $val, $i * 10);
+      color: mix(black, $val, $i * 10%);
     }
     .bg-#{$key}-dark-#{$i} {
-      background-color: mix(#000, $val, $i * 10);
+      background-color: mix(black, $val, $i * 10%);
     }
   }
 }
